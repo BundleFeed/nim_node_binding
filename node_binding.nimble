@@ -12,4 +12,4 @@ bin           = @["node_binding"]
 # Dependencies
 
 requires "nim >= 1.6.10"
-requires "cligen >= 1.5.39"
+requires "cligen >= 1.5.42"
