@@ -73,9 +73,9 @@ proc init(name, version, description, author, licence : string) =
   writeFile("CMakeLists.txt", CMakeLists)  
 
 when isMainModule:
-  import cligen; 
-  dispatchMulti([init])
-
+  #import cligen; 
+  #dispatchMulti([init])
+  discard
   
 else:
   import node_binding/napi
