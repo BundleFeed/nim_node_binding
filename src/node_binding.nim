@@ -56,7 +56,7 @@ proc init(name, version, description, author, licence : string) =
   add_definitions(-DNAPI_VERSION=4)
 
   include_directories($${CMAKE_JS_INC})
-  include_directories($2)
+  include_directories("$2")
 
   file(GLOB SOURCE_FILES "dist/src/*.c")
 
